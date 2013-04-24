@@ -27,8 +27,8 @@ class UsersAppController extends AppController {
  *
  * @return boolean True if allowed
  */
-	public function isAuthorized() {
-		return parent::isAuthorized;
+	public function isAuthorized($user = null) {
+		return parent::isAuthorized($user);
 	}
 
 }

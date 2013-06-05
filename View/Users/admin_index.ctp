@@ -13,7 +13,7 @@
 	<h2><?php echo __d('users', 'Users'); ?></h2>
 
 	<h3><?php echo __d('users', 'Filter'); ?></h3>
-	<?php 
+	<?php
 	echo $this->Form->create($model, array('action' => 'index'));
 		echo $this->Form->input('username', array('label' => __d('users', 'Username')));
 		echo $this->Form->input('email', array('label' => __d('users', 'Email')));
@@ -65,4 +65,4 @@
 	</table>
 	<?php echo $this->element('pagination'); ?>
 </div>
-<?php echo $this->element('Users/admin_sidebar'); ?>
+<?php echo $this->element('Users.Users/admin_sidebar'); ?>

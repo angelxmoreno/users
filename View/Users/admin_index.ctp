@@ -20,7 +20,7 @@
 	echo $this->Form->end(__d('users', 'Search'));
 	?>
 
-	<?php echo $this->element('paging'); ?>
+	<?php echo $this->element('Users.paging'); ?>
 	<?php echo $this->element('Users.pagination'); ?>
 	<table cellpadding="0" cellspacing="0">
 		<tr>

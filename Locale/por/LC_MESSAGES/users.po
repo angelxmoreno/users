@@ -11,712 +11,739 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CakePHP Users Plugin\n"
-"POT-Creation-Date: 2010-09-15 15:48+0200\n"
-"PO-Revision-Date: 2010-09-23 19:54-0300\n"
-"Last-Translator: Renan Gonçalves <renan.saddam@gmail.com>\n"
+"POT-Creation-Date: 2013-06-06 15:50+0000\n"
+"PO-Revision-Date: 2013-06-06 11:55-0500\n"
+"Last-Translator: Angel S. Moreno <angelxmoreno@gmail.com>\n"
 "Language-Team: CakeDC <renan.saddam@gmail.com>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2;plural=n>1;\n"
-"X-Poedit-Language: Portuguese\n"
-"X-Poedit-Country: BRAZIL\n"
+"X-Generator: Poedit 1.5.5\n"
 
-#: /controllers/details_controller.php:57;138
+#: Controller/UserDetailsController.php:59;147
 msgid "Invalid Detail."
 msgstr "Detalhe inválido."
 
-#: /controllers/details_controller.php:78
+#: Controller/UserDetailsController.php:81
 msgid "Saved"
 msgstr "Salvo"
 
-#: /controllers/details_controller.php:96
+#: Controller/UserDetailsController.php:101
 msgid "%s details saved"
 msgstr "%s detalha salvo"
 
-#: /controllers/details_controller.php:113;196
+#: Controller/UserDetailsController.php:120;208
 msgid "Invalid id for Detail"
 msgstr "ID inválido para Detalhe"
 
-#: /controllers/details_controller.php:117;200
-msgid "Detail deleted"
+#: Controller/UserDetailsController.php:124;212
+#, fuzzy
+msgid "User Detail deleted"
 msgstr "Detalhe removido"
 
-#: /controllers/details_controller.php:152;175
+#: Controller/UserDetailsController.php:162;186
 msgid "The Detail has been saved"
 msgstr "O Detalhe foi salvo"
 
-#: /controllers/details_controller.php:155;178
+#: Controller/UserDetailsController.php:165;189
 msgid "The Detail could not be saved. Please, try again."
 msgstr "O Detalhe não pode ser salvo. Por favor, tente novamente."
 
-#: /controllers/details_controller.php:170
+#: Controller/UserDetailsController.php:181
 msgid "Invalid Detail"
 msgstr "Detalhe inválido"
 
-#: /controllers/users_controller.php:157
+#: Controller/UsersController.php:239
 msgid "Profile saved."
 msgstr "Perfil salvo."
 
-#: /controllers/users_controller.php:159
+#: Controller/UsersController.php:241
 msgid "Could not save your profile."
 msgstr "Não foi possível salvar o perfil."
 
-#: /controllers/users_controller.php:193
+#: Controller/UsersController.php:282
 msgid "Invalid User."
 msgstr "Usuário inválido."
 
-#: /controllers/users_controller.php:207
+#: Controller/UsersController.php:299
 msgid "The User has been saved"
 msgstr "O Usuário foi saldo"
 
-#: /controllers/users_controller.php:223
+#: Controller/UsersController.php:316
 msgid "User saved"
 msgstr "Usuário salvo"
 
-#: /controllers/users_controller.php:247
+#: Controller/UsersController.php:340
 msgid "User deleted"
 msgstr "Usuário removido"
 
-#: /controllers/users_controller.php:249
-#: /models/user.php:703
+#: Controller/UsersController.php:342 Model/User.php:892
 msgid "Invalid User"
 msgstr "Usuário inválido"
 
-#: /controllers/users_controller.php:273
+#: Controller/UsersController.php:364
 msgid "You are already registered and logged in!"
 msgstr "Você já está registrado e logado!"
 
-#: /controllers/users_controller.php:282
-#: /tests/cases/controllers/users_controller.test.php:194
-msgid "Your account has been created. You should receive an e-mail shortly to authenticate your account. Once validated you will be able to login."
-msgstr "Sua conta foi salva. Você logo receberá um e-mail para autenticar sua conta. Uma vez validada você poderá logar."
+#: Controller/UsersController.php:372
+#: Test/Case/Controller/UsersControllerTest.php:337
+msgid ""
+"Your account has been created. You should receive an e-mail shortly to "
+"authenticate your account. Once validated you will be able to login."
+msgstr ""
+"Sua conta foi salva. Você logo receberá um e-mail para autenticar sua conta. "
+"Uma vez validada você poderá logar."
 
-#: /controllers/users_controller.php:287
-#: /tests/cases/controllers/users_controller.test.php:205
+#: Controller/UsersController.php:377
+#: Test/Case/Controller/UsersControllerTest.php:352
 msgid "Your account could not be created. Please, try again."
 msgstr "Sua conta não pode ser criada. Por favor, tente novamente."
 
-#: /controllers/users_controller.php:309
+#: Controller/UsersController.php:399
 msgid "%s you have successfully logged in"
 msgstr "%s você se logou com sucesso"
 
-#: /controllers/users_controller.php:383
-msgid "%s you have successfully logged out"
-msgstr "%s você saiu com sucesso"
-
-#: /controllers/users_controller.php:409
-msgid "There url you accessed is not longer valid"
-msgstr "Essa url que você acessou não é mais válida"
-
-#: /controllers/users_controller.php:432;545
-msgid "Password Reset"
-msgstr "Resetar senha"
-
-#: /controllers/users_controller.php:434
-msgid "Your password has been reset"
-msgstr "Sua senha foi resetada"
-
-#: /controllers/users_controller.php:435
-msgid "Please login using this password and change your password"
-msgstr "Por favor faça o login usando essa senha e então mude-a"
-
-#: /controllers/users_controller.php:438
-msgid "Your password was sent to your registered email account"
-msgstr "Sua senha foi enviado para seu e-mail registrado em sua conta"
-
-#: /controllers/users_controller.php:444
-#: /tests/cases/controllers/users_controller.test.php:219
-msgid "Your e-mail has been validated!"
-msgstr "Seu e-mail foi validado!"
-
-#: /controllers/users_controller.php:448
-msgid "There was an error trying to validate your e-mail address. Please check your e-mail for the URL you should use to verify your e-mail address."
-msgstr "Houve um erro ao tentar validar o seu endereço de e-mail. Por favor, verifique seu e-mail pela URL que você deve usar para verificar o seu endereço de e-mail."
-
-#: /controllers/users_controller.php:452
-#: /tests/cases/controllers/users_controller.test.php:224
-msgid "The url you accessed is not longer valid"
-msgstr "A url que você acessou não é mais válida"
-
-#: /controllers/users_controller.php:467
-msgid "Password changed."
-msgstr "Senha alterada."
-
-#: /controllers/users_controller.php:521
-msgid "Account verification"
-msgstr "Verificação de conta"
-
-#: /controllers/users_controller.php:563
-msgid "%s has been sent an email with instruction to reset their password."
-msgstr "%s foi enviado um email com instruções para redefinir sua senha."
-
-#: /controllers/users_controller.php:567
-msgid "You should receive an email with further instructions shortly"
-msgstr "Você deverá receber um email com mais instruções em breve"
-
-#: /controllers/users_controller.php:571
-msgid "No user was found with that email."
-msgstr "Nenhum usuário com esse e-mail foi encontrado."
-
-#: /controllers/users_controller.php:588
-msgid "Invalid password reset token, try again."
-msgstr "Chave para redefinição de senha inválida, tente novamente."
-
-#: /controllers/users_controller.php:594
-msgid "Password changed, you can now login with your new password."
-msgstr "Senha alterada, você pode agora logar com sua nova senha."
-
-#: /models/user.php:102
-msgid "Please enter a username"
-msgstr "Por favor entre o nome de usuário"
-
-#: /models/user.php:105
-msgid "The username must be alphanumeric"
-msgstr "O nome de usuário deve ser alfanumérico"
-
-#: /models/user.php:108
-msgid "This username is already in use."
-msgstr "Esse nome de usuário já está em uso."
-
-#: /models/user.php:111
-msgid "The username must have at least 3 characters."
-msgstr "O nome de usuário deve ter no mínimo 3 caracteres."
-
-#: /models/user.php:116
-msgid "Please enter a valid email address."
-msgstr "Por favor entre um endereço de e-mail válido."
-
-#: /models/user.php:119
-msgid "This email is already in use."
-msgstr "Esse e-mail já está em uso."
-
-#: /models/user.php:123
-msgid "The password must have at least 8 characters."
-msgstr "A senha deve ter no mínimo 8 caracteres."
-
-#: /models/user.php:126
-msgid "Please enter a password."
-msgstr "Por favor entre a senha."
-
-#: /models/user.php:129
-msgid "The passwords are not equal, please try again."
-msgstr "As senhas devem ser iguais, por favor tente novamente."
-
-#: /models/user.php:132
-msgid "You must agree to the terms of use."
-msgstr "Você deve aceitar os termos de uso."
-
-#: /models/user.php:137;357
-msgid "The passwords are not equal."
-msgstr "As senhas não são iguais."
-
-#: /models/user.php:139
-msgid "Invalid password."
-msgstr "Senha inválida."
-
-#: /models/user.php:150
-msgid "Invalid date"
-msgstr "Data inválida"
-
-#: /models/user.php:315
-msgid "This Email Address exists but was never validated."
-msgstr "Esse endereço de e-mail existe mas nunca foi validado."
-
-#: /models/user.php:317
-msgid "This Email Address does not exist in the system."
-msgstr "Esse endereço de e-mail não existe no sistema."
-
-#: /models/user.php:406
-msgid "$this->data['"
-msgstr "$this->data['"
-
-#: /models/user.php:460
-msgid "The user does not exist."
-msgstr "O usuário não existe."
-
-#: /models/user.php:505
-msgid "Please enter your email address."
-msgstr "Por favor entre seu endereço de e-mail."
-
-#: /models/user.php:515
-msgid "The email address does not exist in the system"
-msgstr "O endereço de e-mail não existe no sistema"
-
-#: /models/user.php:520
-msgid "Your account is already authenticaed."
-msgstr "Sua conta já está autenticada."
-
-#: /models/user.php:525
-msgid "Your account is disabled."
-msgstr "Sua conta foi desativada."
-
-#: /tests/cases/controllers/users_controller.test.php:34
-msgid "Sorry, but you need to login to access this location."
-msgstr "Desculpe, mas você precisa logar para acessar esse local."
-
-#: /tests/cases/controllers/users_controller.test.php:35;174
+#: Controller/UsersController.php:415
+#: Test/Case/Controller/UsersControllerTest.php:311
 msgid "Invalid e-mail / password combination.  Please try again"
 msgstr "Combinação de e-mail/senha inválida. Por favor tente novamente."
 
-#: /tests/cases/controllers/users_controller.test.php:168
-msgid "testuser you have successfully logged in"
+#: Controller/UsersController.php:481
+msgid "%s you have successfully logged out"
+msgstr "%s você saiu com sucesso"
+
+#: Controller/UsersController.php:495
+msgid "The email was resent. Please check your inbox."
 msgstr ""
 
-#: /tests/cases/controllers/users_controller.test.php:237
-msgid "floriank you have successfully logged out"
+#: Controller/UsersController.php:498
+#, fuzzy
+msgid "The email could not be sent. Please check errors."
+msgstr "O Detalhe não pode ser salvo. Por favor, tente novamente."
+
+#: Controller/UsersController.php:521
+#: Test/Case/Controller/UsersControllerTest.php:369
+msgid "Your e-mail has been validated!"
+msgstr "Seu e-mail foi validado!"
+
+#: Controller/UsersController.php:544
+msgid "The url you accessed is not longer valid"
+msgstr "A url que você acessou não é mais válida"
+
+#: Controller/UsersController.php:553
+msgid "Your password was sent to your registered email account"
+msgstr "Sua senha foi enviado para seu e-mail registrado em sua conta"
+
+#: Controller/UsersController.php:557
+msgid ""
+"There was an error verifying your account. Please check the email you were "
+"sent, and retry the verification link."
 msgstr ""
 
-#: /views/details/add.ctp:4
-#: /views/details/admin_add.ctp:4
-msgid "Add Detail"
-msgstr "Adicionar Detalhe"
+#: Controller/UsersController.php:573;684
+msgid "Password Reset"
+msgstr "Resetar senha"
 
-#: /views/details/add.ctp:17
-#: /views/details/admin_add.ctp:17
-#: /views/details/admin_edit.ctp:19
-#: /views/details/admin_view.ctp:45
-#: /views/details/view.ctp:45
-msgid "List Details"
-msgstr "Listar Detalhes"
+#: Controller/UsersController.php:590
+msgid "Password changed."
+msgstr "Senha alterada."
 
-#: /views/details/add.ctp:18
-#: /views/details/admin_add.ctp:18
-#: /views/details/admin_edit.ctp:20
-#: /views/details/admin_index.ctp:67
-#: /views/details/admin_view.ctp:47
-#: /views/details/view.ctp:47
-#: /views/users/add.ctp:15
-#: /views/users/admin_add.ctp:13
-#: /views/users/admin_edit.ctp:15
-#: /views/users/admin_view.ctp:25
+#: Controller/UsersController.php:652
+msgid "Account verification"
+msgstr "Verificação de conta"
+
+#: Controller/UsersController.php:711
+msgid "%s has been sent an email with instruction to reset their password."
+msgstr "%s foi enviado um email com instruções para redefinir sua senha."
+
+#: Controller/UsersController.php:715
+msgid "You should receive an email with further instructions shortly"
+msgstr "Você deverá receber um email com mais instruções em breve"
+
+#: Controller/UsersController.php:719
+msgid "No user was found with that email."
+msgstr "Nenhum usuário com esse e-mail foi encontrado."
+
+#: Controller/UsersController.php:750
+msgid "Invalid password reset token, try again."
+msgstr "Chave para redefinição de senha inválida, tente novamente."
+
+#: Controller/UsersController.php:755
+msgid "Password changed, you can now login with your new password."
+msgstr "Senha alterada, você pode agora logar com sua nova senha."
+
+#: Model/User.php:165;456
+msgid "The passwords are not equal."
+msgstr "As senhas não são iguais."
+
+#: Model/User.php:167
+msgid "Invalid password."
+msgstr "Senha inválida."
+
+#: Model/User.php:196;199;202
+msgid "Invalid date"
+msgstr "Data inválida"
+
+#: Model/User.php:310 Test/Case/Controller/UsersControllerTest.php:377
+msgid ""
+"Invalid token, please check the email you were sent, and retry the "
+"verification link."
+msgstr ""
+
+#: Model/User.php:315
+msgid "The token has expired."
+msgstr ""
+
+#: Model/User.php:414
+msgid "This Email Address exists but was never validated."
+msgstr "Esse endereço de e-mail existe mas nunca foi validado."
+
+#: Model/User.php:416
+msgid "This Email Address does not exist in the system."
+msgstr "Esse endereço de e-mail não existe no sistema."
+
+#: Model/User.php:501
+msgid "$this->data['"
+msgstr "$this->data['"
+
+#: Model/User.php:547
+msgid "The user does not exist."
+msgstr "O usuário não existe."
+
+#: Model/User.php:569
+#, fuzzy
+msgid "Invalid Email address."
+msgstr "Deve ser um endereço de e-mail válido"
+
+#: Model/User.php:574
+#, fuzzy
+msgid "This email is already verified."
+msgstr "Esse e-mail já está em uso."
+
+#: Model/User.php:643
+msgid "Please enter your email address."
+msgstr "Por favor entre seu endereço de e-mail."
+
+#: Model/User.php:653
+msgid "The email address does not exist in the system"
+msgstr "O endereço de e-mail não existe no sistema"
+
+#: Model/User.php:658
+msgid "Your account is already authenticaed."
+msgstr "Sua conta já está autenticada."
+
+#: Model/User.php:663
+msgid "Your account is disabled."
+msgstr "Sua conta foi desativada."
+
+#: Test/Case/Controller/UsersControllerTest.php:55
+msgid "Sorry, but you need to login to access this location."
+msgstr "Desculpe, mas você precisa logar para acessar esse local."
+
+#: Test/Case/Controller/UsersControllerTest.php:270
+#, fuzzy
+msgid "adminuser you have successfully logged in"
+msgstr "%s você se logou com sucesso"
+
+#: Test/Case/Controller/UsersControllerTest.php:396
+#, fuzzy
+msgid "testuser you have successfully logged out"
+msgstr "%s você saiu com sucesso"
+
+#: View/Elements/Users/admin_sidebar.ctp:3 View/Elements/Users/sidebar.ctp:9
+msgid "Logout"
+msgstr ""
+
+#: View/Elements/Users/admin_sidebar.ctp:4 View/Elements/Users/sidebar.ctp:10
+msgid "My Account"
+msgstr ""
+
+#: View/Elements/Users/admin_sidebar.ctp:6
+#, fuzzy
+msgid "Add Users"
+msgstr "Adicionar Usuário"
+
+#: View/Elements/Users/admin_sidebar.ctp:7 View/Elements/Users/sidebar.ctp:15
+#: View/UserDetails/add.ctp:28 View/UserDetails/admin_add.ctp:28
+#: View/UserDetails/admin_edit.ctp:30 View/UserDetails/admin_index.ctp:73
+#: View/UserDetails/admin_view.ctp:58 View/UserDetails/view.ctp:59
 msgid "List Users"
 msgstr "Listar Usuários"
 
-#: /views/details/add.ctp:19
-#: /views/details/admin_add.ctp:19
-#: /views/details/admin_edit.ctp:21
-#: /views/details/admin_index.ctp:68
-#: /views/details/admin_view.ctp:48
-#: /views/details/view.ctp:48
-#: /views/users/admin_view.ctp:26
-#: /views/users/index.ctp:46
-msgid "New User"
-msgstr "Novo Usuário"
+#: View/Elements/Users/admin_sidebar.ctp:9
+msgid "Frontend"
+msgstr ""
 
-#: /views/details/add.ctp:20
-#: /views/details/admin_add.ctp:20
-#: /views/details/admin_edit.ctp:22
-#: /views/details/admin_index.ctp:69
-#: /views/details/admin_view.ctp:49
-#: /views/details/view.ctp:49
-msgid "List Groups"
-msgstr "Listar Grupos"
-
-#: /views/details/add.ctp:21
-#: /views/details/admin_add.ctp:21
-#: /views/details/admin_edit.ctp:23
-#: /views/details/admin_index.ctp:70
-#: /views/details/admin_view.ctp:50;95
-#: /views/details/view.ctp:50;95
-msgid "New Group"
-msgstr "Novo Grupo"
-
-#: /views/details/admin_edit.ctp:4
-#: /views/details/admin_view.ctp:43
-#: /views/details/edit.ctp:5
-#: /views/details/view.ctp:43
-msgid "Edit Detail"
-msgstr "Editar Detalhe"
-
-#: /views/details/admin_edit.ctp:18
-#: /views/details/admin_index.ctp:53
-#: /views/details/admin_view.ctp:86
-#: /views/details/view.ctp:86
-#: /views/users/admin_edit.ctp:14
-#: /views/users/admin_index.ctp:47
-#: /views/users/groups.ctp:38
-#: /views/users/index.ctp:33
-msgid "Delete"
-msgstr "Remover"
-
-#: /views/details/admin_edit.ctp:18
-#: /views/details/admin_index.ctp:53
-#: /views/details/admin_view.ctp:44;86
-#: /views/details/view.ctp:44;86
-#: /views/users/admin_edit.ctp:14
-#: /views/users/admin_index.ctp:47
-#: /views/users/admin_view.ctp:24
-#: /views/users/index.ctp:33
-msgid "Are you sure you want to delete # %s?"
-msgstr "Você tem certeza que deseja remover # %s?"
-
-#: /views/details/admin_index.ctp:2
-#: /views/users/register.ctp:4
-msgid "Details"
-msgstr "Detalhes"
-
-#: /views/details/admin_index.ctp:6
-#: /views/users/index.ctp:6
-msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
-msgstr "Página %page% de %pages%, mostrando %current% resultados de um total de %count%, começando em %start%, terminando em %end%"
-
-#: /views/details/admin_index.ctp:18
-#: /views/details/admin_view.ctp:65
-#: /views/details/view.ctp:65
-#: /views/users/admin_index.ctp:21
-#: /views/users/groups.ctp:15;50
-#: /views/users/index.ctp:13
-msgid "Actions"
-msgstr "Ações"
-
-#: /views/details/admin_index.ctp:51
-#: /views/details/admin_view.ctp:84
-#: /views/details/view.ctp:84
-#: /views/users/admin_index.ctp:45
-#: /views/users/index.ctp:31
-msgid "View"
-msgstr "Visualizar"
-
-#: /views/details/admin_index.ctp:52
-#: /views/details/admin_view.ctp:85
-#: /views/details/view.ctp:85
-#: /views/users/admin_index.ctp:46
-#: /views/users/groups.ctp:33
-#: /views/users/index.ctp:32
-msgid "Edit"
-msgstr "Editar"
-
-#: /views/details/admin_index.ctp:60
-#: /views/users/index.ctp:40
-msgid "previous"
-msgstr "anterior"
-
-#: /views/details/admin_index.ctp:62
-#: /views/users/index.ctp:42
-msgid "next"
-msgstr "próximo"
-
-#: /views/details/admin_index.ctp:66
-#: /views/details/admin_view.ctp:46
-#: /views/details/view.ctp:46
-msgid "New Detail"
-msgstr "Novo Detalhe"
-
-#: /views/details/admin_view.ctp:2
-#: /views/details/view.ctp:2
-msgid "Detail"
-msgstr "Detalhe"
-
-#: /views/details/admin_view.ctp:4;58
-#: /views/details/view.ctp:4;58
-msgid "Id"
-msgstr "Id"
-
-#: /views/details/admin_view.ctp:9
-#: /views/details/view.ctp:9
-#: /views/users/admin_view.ctp:2
-#: /views/users/view.ctp:2
-msgid "User"
-msgstr "Usuário"
-
-#: /views/details/admin_view.ctp:14
-#: /views/details/view.ctp:14
-msgid "Position"
-msgstr "Posição"
-
-#: /views/details/admin_view.ctp:19
-#: /views/details/view.ctp:19
-msgid "Field"
-msgstr "Campo"
-
-#: /views/details/admin_view.ctp:24
-#: /views/details/view.ctp:24
-msgid "Value"
-msgstr "Valor"
-
-#: /views/details/admin_view.ctp:29;63
-#: /views/details/view.ctp:29;63
-#: /views/users/admin_view.ctp:9
-#: /views/users/view.ctp:9
-msgid "Created"
-msgstr "Criação"
-
-#: /views/details/admin_view.ctp:34;64
-#: /views/details/view.ctp:34;64
-#: /views/users/admin_view.ctp:14
-msgid "Modified"
-msgstr "Atualização"
-
-#: /views/details/admin_view.ctp:44
-#: /views/details/view.ctp:44
-msgid "Delete Detail"
-msgstr "Remover Detalhe"
-
-#: /views/details/admin_view.ctp:54
-#: /views/details/view.ctp:54
-msgid "Related Groups"
-msgstr "Grupos relacionados"
-
-#: /views/details/admin_view.ctp:59
-#: /views/details/view.ctp:59
-msgid "User Id"
-msgstr "Id de Usuário"
-
-#: /views/details/admin_view.ctp:60
-#: /views/details/view.ctp:60
-msgid "Is Public"
-msgstr "Público"
-
-#: /views/details/admin_view.ctp:61
-#: /views/details/view.ctp:61
-#: /views/users/groups.ctp:13;47
-#: /views/users/search.ctp:9
-msgid "Name"
-msgstr "Nome"
-
-#: /views/details/admin_view.ctp:62
-#: /views/details/view.ctp:62
-#: /views/users/groups.ctp:48
-msgid "Description"
-msgstr "Descrição"
-
-#: /views/details/index.ctp:17
-#: /views/users/change_password.ctp:16
-#: /views/users/login.ctp:13
-#: /views/users/register.ctp:33;89
-#: /views/users/request_password_change.ctp:12
-#: /views/users/reset_password.ctp:14
-msgid "Submit"
-msgstr "Enviar"
-
-#: /views/elements/login.ctp:11
-#: /views/users/admin_index.ctp:10
-#: /views/users/login.ctp:8
-#: /views/users/register.ctp:71;78
-#: /views/users/search.ctp:7
-msgid "Email"
-msgstr "E-mail"
-
-#: /views/elements/login.ctp:13
-#: /views/users/login.ctp:10
-#: /views/users/register.ctp:19
-msgid "Password"
-msgstr "Senha"
-
-#: /views/elements/login.ctp:15
-#: /views/users/login.ctp:1;3
+#: View/Elements/Users/sidebar.ctp:4 View/Users/login.ctp:13
 msgid "Login"
 msgstr "Login"
 
-#: /views/elements/email/text/account_verification.ctp:2
+#: View/Elements/Users/sidebar.ctp:6
+msgid "Register an account"
+msgstr ""
+
+#: View/Elements/Users/sidebar.ctp:11
+#, fuzzy
+msgid "Change password"
+msgstr "Altera sua senha"
+
+#: View/Emails/text/account_verification.ctp:12
 msgid "Hello %s,"
 msgstr "Olá %s,"
 
-#: /views/elements/email/text/account_verification.ctp:4
+#: View/Emails/text/account_verification.ctp:14
 msgid "to validate your account, you must visit the URL below within 24 hours"
-msgstr "para validar a sua conta, você deve visitar a URL abaixo no prazo de 24 horas"
+msgstr ""
+"para validar a sua conta, você deve visitar a URL abaixo no prazo de 24 horas"
 
-#: /views/elements/email/text/password_reset_request.ctp:2
-msgid "A request to reset your password was sent. To change your password click the link below."
-msgstr "Uma solicitação para redefinir sua senha foi enviada. Para alterar sua senha, clique no link abaixo."
+#: View/Emails/text/new_password.ctp:12
+msgid "Your password has been reset"
+msgstr "Sua senha foi resetada"
 
-#: /views/users/add.ctp:4
-#: /views/users/admin_add.ctp:4
+#: View/Emails/text/new_password.ctp:13
+msgid "Please login using this password and change your password"
+msgstr "Por favor faça o login usando essa senha e então mude-a"
+
+#: View/Emails/text/new_password.ctp:15
+#, fuzzy
+msgid "Your new password is: %s"
+msgstr "Sua senha foi resetada"
+
+#: View/Emails/text/password_reset_request.ctp:12
+msgid ""
+"A request to reset your password was sent. To change your password click the "
+"link below."
+msgstr ""
+"Uma solicitação para redefinir sua senha foi enviada. Para alterar sua "
+"senha, clique no link abaixo."
+
+#: View/UserDetails/add.ctp:15 View/UserDetails/admin_add.ctp:15
+#, fuzzy
+msgid "Add User Detail"
+msgstr "Adicionar Detalhe"
+
+#: View/UserDetails/add.ctp:23 View/UserDetails/admin_add.ctp:23
+#: View/UserDetails/index.ctp:27 View/Users/add.ctp:32
+#: View/Users/change_password.ctp:26 View/Users/edit.ctp:25
+#: View/Users/login.ctp:29 View/Users/request_password_change.ctp:22
+#: View/Users/resend_verification.ctp:22 View/Users/reset_password.ctp:14
+msgid "Submit"
+msgstr "Enviar"
+
+#: View/UserDetails/add.ctp:27 View/UserDetails/admin_add.ctp:27
+#: View/UserDetails/admin_edit.ctp:29 View/UserDetails/admin_view.ctp:56
+#: View/UserDetails/view.ctp:57
+msgid "List Details"
+msgstr "Listar Detalhes"
+
+#: View/UserDetails/add.ctp:29 View/UserDetails/admin_add.ctp:29
+#: View/UserDetails/admin_edit.ctp:31 View/UserDetails/admin_index.ctp:74
+#: View/UserDetails/admin_view.ctp:59 View/UserDetails/view.ctp:60
+msgid "New User"
+msgstr "Novo Usuário"
+
+#: View/UserDetails/admin_edit.ctp:15 View/UserDetails/edit.ctp:15
+#, fuzzy
+msgid "Edit User Detail"
+msgstr "Editar Detalhe"
+
+#: View/UserDetails/admin_edit.ctp:28 View/UserDetails/admin_index.ctp:63
+#: View/Users/admin_index.ctp:61 View/Users/search.ctp:52
+msgid "Delete"
+msgstr "Remover"
+
+#: View/UserDetails/admin_edit.ctp:28 View/UserDetails/admin_index.ctp:63
+#: View/UserDetails/admin_view.ctp:55 View/UserDetails/view.ctp:56
+#: View/Users/admin_index.ctp:61 View/Users/search.ctp:55
+msgid "Are you sure you want to delete # %s?"
+msgstr "Você tem certeza que deseja remover # %s?"
+
+#: View/UserDetails/admin_index.ctp:13
+#, fuzzy
+msgid "User Details"
+msgstr "Listar Detalhes"
+
+#: View/UserDetails/admin_index.ctp:16 View/Users/index.ctp:17
+#: View/Users/search.ctp:27
+msgid ""
+"Page %page% of %pages%, showing %current% records out of %count% total, "
+"starting on record %start%, ending on %end%"
+msgstr ""
+"Página %page% de %pages%, mostrando %current% resultados de um total de "
+"%count%, começando em %start%, terminando em %end%"
+
+#: View/UserDetails/admin_index.ctp:28 View/Users/admin_index.ctp:32
+#: View/Users/index.ctp:25 View/Users/search.ctp:35
+msgid "Actions"
+msgstr "Ações"
+
+#: View/UserDetails/admin_index.ctp:61 View/Users/admin_index.ctp:59
+#: View/Users/index.ctp:39 View/Users/search.ctp:49
+msgid "View"
+msgstr "Visualizar"
+
+#: View/UserDetails/admin_index.ctp:62 View/Users/admin_index.ctp:60
+#: View/Users/search.ctp:50
+msgid "Edit"
+msgstr "Editar"
+
+#: View/UserDetails/admin_index.ctp:72
+#, fuzzy
+msgid "New User Detail"
+msgstr "Novo Detalhe"
+
+#: View/UserDetails/admin_view.ctp:13 View/UserDetails/view.ctp:13
+#, fuzzy
+msgid "User Detail"
+msgstr "Novo Detalhe"
+
+#: View/UserDetails/admin_view.ctp:15 View/UserDetails/view.ctp:15
+msgid "Id"
+msgstr "Id"
+
+#: View/UserDetails/admin_view.ctp:20 View/UserDetails/view.ctp:20
+#: View/Users/admin_view.ctp:13 View/Users/view.ctp:13
+msgid "User"
+msgstr "Usuário"
+
+#: View/UserDetails/admin_view.ctp:25 View/UserDetails/view.ctp:25
+msgid "Position"
+msgstr "Posição"
+
+#: View/UserDetails/admin_view.ctp:30 View/UserDetails/view.ctp:30
+msgid "Field"
+msgstr "Campo"
+
+#: View/UserDetails/admin_view.ctp:35 View/UserDetails/view.ctp:35
+msgid "Value"
+msgstr "Valor"
+
+#: View/UserDetails/admin_view.ctp:40 View/UserDetails/view.ctp:40
+#: View/Users/admin_view.ctp:20 View/Users/view.ctp:20
+msgid "Created"
+msgstr "Criação"
+
+#: View/UserDetails/admin_view.ctp:45 View/UserDetails/view.ctp:45
+#: View/Users/admin_view.ctp:25
+msgid "Modified"
+msgstr "Atualização"
+
+#: View/UserDetails/admin_view.ctp:54 View/UserDetails/view.ctp:55
+msgid "Edit Detail"
+msgstr "Editar Detalhe"
+
+#: View/UserDetails/admin_view.ctp:55 View/UserDetails/view.ctp:56
+msgid "Delete Detail"
+msgstr "Remover Detalhe"
+
+#: View/UserDetails/admin_view.ctp:57 View/UserDetails/view.ctp:58
+msgid "New Detail"
+msgstr "Novo Detalhe"
+
+#: View/Users/add.ctp:13 View/Users/admin_add.ctp:15
 msgid "Add User"
 msgstr "Adicionar Usuário"
 
-#: /views/users/admin_edit.ctp:4
-#: /views/users/admin_view.ctp:23
-#: /views/users/edit.ctp:3
-msgid "Edit User"
-msgstr "Editar Usuário"
-
-#: /views/users/admin_index.ctp:2
-#: /views/users/index.ctp:2
-msgid "Users"
-msgstr "Usuários"
-
-#: /views/users/admin_index.ctp:4
-msgid "Filter"
-msgstr "Filtro"
-
-#: /views/users/admin_index.ctp:8
-#: /views/users/admin_view.ctp:4
-#: /views/users/register.ctp:57;63
-#: /views/users/search.ctp:5
-#: /views/users/view.ctp:4
+#: View/Users/add.ctp:18 View/Users/admin_add.ctp:18
+#: View/Users/admin_edit.ctp:19 View/Users/admin_index.ctp:18
+#: View/Users/admin_view.ctp:15 View/Users/search.ctp:18
+#: View/Users/view.ctp:15
 msgid "Username"
 msgstr "Nome de usuário"
 
-#: /views/users/admin_index.ctp:11
-#: /views/users/search.ctp:10
-msgid "Search"
-msgstr "Buscar"
-
-#: /views/users/admin_view.ctp:24
-msgid "Delete User"
-msgstr "Remover Usuário"
-
-#: /views/users/change_password.ctp:1
-msgid "Change your password"
-msgstr "Altera sua senha"
-
-#: /views/users/change_password.ctp:3
-msgid "Please enter your old password because of security reasons and then your new password twice."
-msgstr "Por favor digite sua senha antiga por razões de segurança e depois sua nova senha duas vezes."
-
-#: /views/users/change_password.ctp:8
-msgid "Old Password"
-msgstr "Antiga senha"
-
-#: /views/users/change_password.ctp:11
-#: /views/users/reset_password.ctp:9
-msgid "New Password"
-msgstr "Nova senha"
-
-#: /views/users/change_password.ctp:14
-#: /views/users/reset_password.ctp:12
-msgid "Confirm"
-msgstr "Confirmar"
-
-#: /views/users/dashboard.ctp:2
-msgid "Welcome"
-msgstr "Bem-vindo"
-
-#: /views/users/dashboard.ctp:3
-msgid "Recent broadcasts"
-msgstr "Atualizações recentes"
-
-#: /views/users/groups.ctp:2
-msgid "My Groups"
-msgstr "Meus Grupos"
-
-#: /views/users/groups.ctp:5
-msgid "Create a new group"
-msgstr "Criar um novo grupo"
-
-#: /views/users/groups.ctp:6
-msgid "Invite a user"
-msgstr "Convide um usuário"
-
-#: /views/users/groups.ctp:7
-msgid "Requests to join"
-msgstr "Requisite para participar"
-
-#: /views/users/groups.ctp:10
-msgid "My own groups"
-msgstr "Meus próprios grupos"
-
-#: /views/users/groups.ctp:14;49
-msgid "Members"
-msgstr "Membros"
-
-#: /views/users/groups.ctp:34
-msgid "Invite user"
-msgstr "Convite um usuário"
-
-#: /views/users/groups.ctp:35
-msgid "Manage Broadcast Scope"
-msgstr "Gerenciar escopo atualizações"
-
-#: /views/users/groups.ctp:36
-msgid "Access"
-msgstr "Acesso"
-
-#: /views/users/groups.ctp:37
-msgid "Addons"
-msgstr "Módulos"
-
-#: /views/users/groups.ctp:44
-msgid "Groups im a member in"
-msgstr "Grupos em que sou membro"
-
-#: /views/users/groups.ctp:68
-msgid "Leave group"
-msgstr "Deixar grupo"
-
-#: /views/users/login.ctp:11
-msgid "Remember Me"
-msgstr "Lembre-me"
-
-#: /views/users/register.ctp:2
-msgid "Account registration"
-msgstr "Registro de conta"
-
-#: /views/users/register.ctp:10
-msgid "Please select a username that is not already in use"
-msgstr "Por favor selecione um nome de usuário que não esteja em uso"
-
-#: /views/users/register.ctp:11
-msgid "Must be at least 3 characters"
-msgstr "Tem que ter no mínimo 3 caracteres"
-
-#: /views/users/register.ctp:12
-msgid "Username must contain numbers and letters only"
-msgstr "Nome de usuário devem conter apenas números e letras"
-
-#: /views/users/register.ctp:13
-msgid "Please choose username"
-msgstr "Por favor escolha o nome de usuário"
-
-#: /views/users/register.ctp:15
+#: View/Users/add.ctp:20 View/Users/admin_add.ctp:20
 msgid "E-mail (used as login)"
 msgstr "E-mail (usado para logar)"
 
-#: /views/users/register.ctp:16
+#: View/Users/add.ctp:21 View/Users/admin_add.ctp:21
 msgid "Must be a valid email address"
 msgstr "Deve ser um endereço de e-mail válido"
 
-#: /views/users/register.ctp:17
+#: View/Users/add.ctp:22 View/Users/admin_add.ctp:22
 msgid "An account with that email already exists"
 msgstr "Já existe uma conta com esse e-mail"
 
-#: /views/users/register.ctp:21
-msgid "Must be at least 5 characters long"
-msgstr "Deve ter pelo menos 5 caracteres"
+#: View/Users/add.ctp:24 View/Users/admin_add.ctp:24 View/Users/login.ctp:22
+msgid "Password"
+msgstr "Senha"
 
-#: /views/users/register.ctp:23
+#: View/Users/add.ctp:27 View/Users/admin_add.ctp:27
 msgid "Password (confirm)"
 msgstr "Senha (confirmação)"
 
-#: /views/users/register.ctp:25
-msgid "Passwords must match"
-msgstr "As senhas devem ser iguais"
-
-#: /views/users/register.ctp:29;85
-msgid "I have read and agreed to "
-msgstr "Eu li e aceito em"
-
-#: /views/users/register.ctp:29;85
+#: View/Users/add.ctp:29
 msgid "Terms of Service"
 msgstr "Termos de Serviço"
 
-#: /views/users/register.ctp:30;86
-msgid "You must verify you have read the Terms of Service"
-msgstr "Você deve verificar se você leu os Termos de Serviços"
+#: View/Users/add.ctp:31
+msgid "I have read and agreed to "
+msgstr "Eu li e aceito em"
 
-#: /views/users/register.ctp:46
-msgid "Openid Identifier"
-msgstr "Identificador OpenId"
+#: View/Users/admin_add.ctp:31 View/Users/admin_edit.ctp:24
+msgid "Role"
+msgstr ""
 
-#: /views/users/request_password_change.ctp:1
+#: View/Users/admin_add.ctp:35 View/Users/admin_edit.ctp:27
+msgid "Is Admin"
+msgstr ""
+
+#: View/Users/admin_add.ctp:37 View/Users/admin_edit.ctp:29
+#, fuzzy
+msgid "Active"
+msgstr "Ações"
+
+#: View/Users/admin_edit.ctp:15 View/Users/edit.ctp:15
+msgid "Edit User"
+msgstr "Editar Usuário"
+
+#: View/Users/admin_edit.ctp:21 View/Users/admin_index.ctp:19
+#: View/Users/login.ctp:20 View/Users/search.ctp:20
+msgid "Email"
+msgstr "E-mail"
+
+#: View/Users/admin_index.ctp:13 View/Users/index.ctp:13
+#: View/Users/search.ctp:13
+msgid "Users"
+msgstr "Usuários"
+
+#: View/Users/admin_index.ctp:15
+msgid "Filter"
+msgstr "Filtro"
+
+#: View/Users/admin_index.ctp:20 View/Users/search.ctp:23
+msgid "Search"
+msgstr "Buscar"
+
+#: View/Users/admin_index.ctp:50;53
+msgid "Yes"
+msgstr ""
+
+#: View/Users/admin_index.ctp:50;53
+msgid "No"
+msgstr ""
+
+#: View/Users/change_password.ctp:13 View/Users/edit.ctp:22
+msgid "Change your password"
+msgstr "Altera sua senha"
+
+#: View/Users/change_password.ctp:14
+msgid ""
+"Please enter your old password because of security reasons and then your new "
+"password twice."
+msgstr ""
+"Por favor digite sua senha antiga por razões de segurança e depois sua nova "
+"senha duas vezes."
+
+#: View/Users/change_password.ctp:18
+msgid "Old Password"
+msgstr "Antiga senha"
+
+#: View/Users/change_password.ctp:21 View/Users/reset_password.ctp:9
+msgid "New Password"
+msgstr "Nova senha"
+
+#: View/Users/change_password.ctp:24 View/Users/reset_password.ctp:12
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: View/Users/dashboard.ctp:13
+msgid "Welcome"
+msgstr "Bem-vindo"
+
+#: View/Users/dashboard.ctp:14
+msgid "Recent broadcasts"
+msgstr "Atualizações recentes"
+
+#: View/Users/login.ctp:24
+msgid "Remember Me"
+msgstr "Lembre-me"
+
+#: View/Users/login.ctp:25
+#, fuzzy
+msgid "I forgot my password"
+msgstr "Esqueceu sua senha?"
+
+#: View/Users/request_password_change.ctp:13
 msgid "Forgot your password?"
 msgstr "Esqueceu sua senha?"
 
-#: /views/users/request_password_change.ctp:3
-msgid "Please enter the email you used for registration and you'll get an email with further instructions."
-msgstr "Por favor entre com o e-mail usado no registro e você irá receber um e-mail com mais instruções."
+#: View/Users/request_password_change.ctp:14
+#: View/Users/resend_verification.ctp:14
+msgid ""
+"Please enter the email you used for registration and you'll get an email "
+"with further instructions."
+msgstr ""
+"Por favor entre com o e-mail usado no registro e você irá receber um e-mail "
+"com mais instruções."
 
-#: /views/users/request_password_change.ctp:11
+#: View/Users/request_password_change.ctp:21
+#: View/Users/resend_verification.ctp:21
 msgid "Your Email"
 msgstr "Seu E-mail"
 
-#: /views/users/reset_password.ctp:1
+#: View/Users/resend_verification.ctp:13
+msgid "Resend the Email Verification"
+msgstr ""
+
+#: View/Users/reset_password.ctp:2
 msgid "Reset your password"
 msgstr "Redefinir sua senha"
 
-#: /views/users/search.ctp:1
-msgid "Search for users"
-msgstr "Procurar por usuários"
+#: View/Users/search.ctp:22
+msgid "Name"
+msgstr "Nome"
 
+#: Plugin/Users/Model/User.php:validation for field username
+#, fuzzy
+msgid "Please enter a username."
+msgstr "Por favor entre o nome de usuário"
+
+#: Plugin/Users/Model/User.php:validation for field username
+#, fuzzy
+msgid "The username must be alphanumeric."
+msgstr "O nome de usuário deve ser alfanumérico"
+
+#: Plugin/Users/Model/User.php:validation for field username
+msgid "This username is already in use."
+msgstr "Esse nome de usuário já está em uso."
+
+#: Plugin/Users/Model/User.php:validation for field username
+msgid "The username must have at least 3 characters."
+msgstr "O nome de usuário deve ter no mínimo 3 caracteres."
+
+#: Plugin/Users/Model/User.php:validation for field email
+msgid "Please enter a valid email address."
+msgstr "Por favor entre um endereço de e-mail válido."
+
+#: Plugin/Users/Model/User.php:validation for field email
+msgid "This email is already in use."
+msgstr "Esse e-mail já está em uso."
+
+#: Plugin/Users/Model/User.php:validation for field password
+#, fuzzy
+msgid "The password must have at least 6 characters."
+msgstr "A senha deve ter no mínimo 8 caracteres."
+
+#: Plugin/Users/Model/User.php:validation for field password
+msgid "Please enter a password."
+msgstr "Por favor entre a senha."
+
+#: Plugin/Users/Model/User.php:validation for field temppassword
+msgid "The passwords are not equal, please try again."
+msgstr "As senhas devem ser iguais, por favor tente novamente."
+
+#: Plugin/Users/Model/User.php:validation for field tos
+msgid "You must agree to the terms of use."
+msgstr "Você deve aceitar os termos de uso."
+
+#~ msgid "There url you accessed is not longer valid"
+#~ msgstr "Essa url que você acessou não é mais válida"
+
+#~ msgid ""
+#~ "There was an error trying to validate your e-mail address. Please check "
+#~ "your e-mail for the URL you should use to verify your e-mail address."
+#~ msgstr ""
+#~ "Houve um erro ao tentar validar o seu endereço de e-mail. Por favor, "
+#~ "verifique seu e-mail pela URL que você deve usar para verificar o seu "
+#~ "endereço de e-mail."
+
+#~ msgid "List Groups"
+#~ msgstr "Listar Grupos"
+
+#~ msgid "New Group"
+#~ msgstr "Novo Grupo"
+
+#~ msgid "Details"
+#~ msgstr "Detalhes"
+
+#~ msgid "previous"
+#~ msgstr "anterior"
+
+#~ msgid "next"
+#~ msgstr "próximo"
+
+#~ msgid "Detail"
+#~ msgstr "Detalhe"
+
+#~ msgid "Related Groups"
+#~ msgstr "Grupos relacionados"
+
+#~ msgid "User Id"
+#~ msgstr "Id de Usuário"
+
+#~ msgid "Is Public"
+#~ msgstr "Público"
+
+#~ msgid "Description"
+#~ msgstr "Descrição"
+
+#~ msgid "Delete User"
+#~ msgstr "Remover Usuário"
+
+#~ msgid "My Groups"
+#~ msgstr "Meus Grupos"
+
+#~ msgid "Create a new group"
+#~ msgstr "Criar um novo grupo"
+
+#~ msgid "Invite a user"
+#~ msgstr "Convide um usuário"
+
+#~ msgid "Requests to join"
+#~ msgstr "Requisite para participar"
+
+#~ msgid "My own groups"
+#~ msgstr "Meus próprios grupos"
+
+#~ msgid "Members"
+#~ msgstr "Membros"
+
+#~ msgid "Invite user"
+#~ msgstr "Convite um usuário"
+
+#~ msgid "Manage Broadcast Scope"
+#~ msgstr "Gerenciar escopo atualizações"
+
+#~ msgid "Access"
+#~ msgstr "Acesso"
+
+#~ msgid "Addons"
+#~ msgstr "Módulos"
+
+#~ msgid "Groups im a member in"
+#~ msgstr "Grupos em que sou membro"
+
+#~ msgid "Leave group"
+#~ msgstr "Deixar grupo"
+
+#~ msgid "Account registration"
+#~ msgstr "Registro de conta"
+
+#~ msgid "Please select a username that is not already in use"
+#~ msgstr "Por favor selecione um nome de usuário que não esteja em uso"
+
+#~ msgid "Must be at least 3 characters"
+#~ msgstr "Tem que ter no mínimo 3 caracteres"
+
+#~ msgid "Username must contain numbers and letters only"
+#~ msgstr "Nome de usuário devem conter apenas números e letras"
+
+#~ msgid "Please choose username"
+#~ msgstr "Por favor escolha o nome de usuário"
+
+#~ msgid "Must be at least 5 characters long"
+#~ msgstr "Deve ter pelo menos 5 caracteres"
+
+#~ msgid "Passwords must match"
+#~ msgstr "As senhas devem ser iguais"
+
+#~ msgid "You must verify you have read the Terms of Service"
+#~ msgstr "Você deve verificar se você leu os Termos de Serviços"
+
+#~ msgid "Openid Identifier"
+#~ msgstr "Identificador OpenId"
+
+#~ msgid "Search for users"
+#~ msgstr "Procurar por usuários"

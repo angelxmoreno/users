@@ -165,7 +165,7 @@ class UsersController extends UsersAppController {
  * @return void
  */
 	protected function _setupAuth() {
-		$this->Auth->allow('add', 'reset', 'verify', 'logout', 'view', 'reset_password', 'login');
+		$this->Auth->allow('add', 'reset', 'verify', 'logout', 'view', 'reset_password', 'login', 'resend_verification');
 		if (!is_null(Configure::read('Users.allowRegistration')) && !Configure::read('Users.allowRegistration')) {
 			$this->Auth->deny('add');
 		}
@@ -483,6 +483,27 @@ class UsersController extends UsersAppController {
 	}
 
 /**
+ * Checks if an email is already verified and if not renews the expiration time
+ *
+ * @return void
+ */
+	public function resend_verification() {
+		if ($this->request->is('post')) {
+			try {
+				if ($this->{$this->modelClass}->checkEmailVerification($this->request->data)) {
+					$this->_sendVerificationEmail($this->{$this->modelClass}->data);
+					$this->Session->setFlash(__d('users', 'The email was resent. Please check your inbox.'));
+					$this->redirect('login');
+				} else {
+					$this->Session->setFlash(__d('users', 'The email could not be sent. Please check errors.'));
+				}
+			} catch (Exception $e) {
+				$this->Session->setFlash($e->getMessage());
+			}
+		}
+	}
+
+/**
  * Confirm email action
  *
  * @param string $type Type, deprecated, will be removed. Its just still there for a smooth transistion.
@@ -643,8 +664,9 @@ class UsersController extends UsersAppController {
 			->subject($options['subject'])
 			->template($options['template'], $options['layout'])
 			->viewVars(array(
-			'model' => $this->modelClass,
-				'user' => $userData))
+				'model' => $this->modelClass,
+				'user' => $userData
+			))
 			->send();
 	}
 

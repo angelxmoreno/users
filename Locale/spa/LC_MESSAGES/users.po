@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Users CakePHP plugin\n"
 "POT-Creation-Date: 2013-06-06 15:50+0000\n"
-"PO-Revision-Date: 2013-06-06 12:00-0500\n"
+"PO-Revision-Date: 2013-06-06 17:01-0500\n"
 "Last-Translator: Angel S. Moreno <angelxmoreno@gmail.com>\n"
 "Language-Team: CakeDC <contact@cakedc.com>\n"
 "MIME-Version: 1.0\n"
@@ -98,7 +98,7 @@ msgstr ""
 #: Controller/UsersController.php:377
 #: Test/Case/Controller/UsersControllerTest.php:352
 msgid "Your account could not be created. Please, try again."
-msgstr "Su suenta no pudo ser creada, intente de nuevo"
+msgstr "Su cuenta no pudo ser creada, intente de nuevo"
 
 #: Controller/UsersController.php:399
 msgid "%s you have successfully logged in"
@@ -259,7 +259,7 @@ msgstr "Desconectarse"
 
 #: View/Elements/Users/admin_sidebar.ctp:4 View/Elements/Users/sidebar.ctp:10
 msgid "My Account"
-msgstr ""
+msgstr "Mi Cuenta"
 
 #: View/Elements/Users/admin_sidebar.ctp:6
 #, fuzzy
@@ -279,7 +279,7 @@ msgstr ""
 
 #: View/Elements/Users/sidebar.ctp:4 View/Users/login.ctp:13
 msgid "Login"
-msgstr "Nombre de Usuario"
+msgstr "Conectarse"
 
 #: View/Elements/Users/sidebar.ctp:6
 msgid "Register an account"

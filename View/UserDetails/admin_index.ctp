@@ -1,11 +1,11 @@
 <?php
 /**
- * Copyright 2010 - 2011, Cake Development Corporation (http://cakedc.com)
+ * Copyright 2010 - 2013, Cake Development Corporation (http://cakedc.com)
  *
  * Licensed under The MIT License
  * Redistributions of files must retain the above copyright notice.
  *
- * @copyright Copyright 2010 - 2011, Cake Development Corporation (http://cakedc.com)
+ * @copyright Copyright 2010 - 2013, Cake Development Corporation (http://cakedc.com)
  * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 ?>
@@ -66,7 +66,7 @@ foreach ($user_details as $user_detail):
 <?php endforeach; ?>
 </table>
 </div>
-<?php echo $this->element('pagination'); ?>
+<?php echo $this->element('Users.pagination'); ?>
 <div class="actions">
 	<ul>
 		<li><?php echo $this->Html->link(__d('users', 'New User Detail'), array('action' => 'add')); ?></li>
